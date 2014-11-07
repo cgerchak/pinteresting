@@ -43,3 +43,6 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+# CDG 11-06-2014 - added for OneMonth RoR course
+gem 'bootstrap-sass'
