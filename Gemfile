@@ -18,6 +18,10 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
+# CDG 11-06-2014 - added for OneMonth RoR course
+gem 'bootstrap-sass'
+gem 'devise'
+
 group :development, :test do
 	# Use sqlite3 as the database for Active Record
 	gem 'sqlite3'	# included with Rails; however, Heroku prefers PostgreSQL
@@ -41,6 +45,3 @@ end
 # gem 'capistrano', group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
-# CDG 11-06-2014 - added for OneMonth RoR course
-gem 'bootstrap-sass'
