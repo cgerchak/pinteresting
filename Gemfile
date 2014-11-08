@@ -20,7 +20,7 @@ gem 'jbuilder', '~> 1.2'
 
 # CDG 11-06-2014 - added for OneMonth RoR course
 gem 'bootstrap-sass'
-gem 'devise'
+gem 'devise', '~> 3.4.1'
 
 group :development, :test do
 	# Use sqlite3 as the database for Active Record
